@@ -128,27 +128,27 @@ export default function Home() {
                 </div>
                 <div className="flex">
                   <BsMailboxFlag style={{marginTop: '18px'}}/>
-                  <p className="p-3 text-md lg:text-lg">Rua Burum 94 - Bairro: Vila Assunção</p>
+                  <p className="p-3 text-md lg:text-md">Rua Burum 94 - Vila Assunção</p>
                 </div>
                 <div className="flex">
                   <BsMailboxFlag style={{marginTop: '18px'}}/>
-                  <p className="p-3 text-md lg:text-lg">Porto Alegre - Brazil CEP: 91900-170</p>
+                  <p className="p-3 text-md lg:text-md">Porto Alegre - Brazil CEP: 91900-170</p>
                 </div>
                 <div className="flex">
                   <TiPhoneOutline style={{marginTop: '18px'}}/>
-                  <a href="https://wa.me/5551996974708" className="p-3 text-md lg:text-lg">+55 51 996974708</a>
+                  <a href="https://wa.me/5551996974708" className="p-3 text-md lg:text-md">+55 51 996974708</a>
                 </div>
                 <div className="flex">
                   <MdAlternateEmail style={{marginTop: '18px'}}/>
-                  <a href="mailto:leoperachi@gmail.com" className="p-3 text-md lg:text-lg">leoperachi@gmail.com</a>
+                  <a href="mailto:leoperachi@gmail.com" className="p-3 text-md lg:text-md">leoperachi@gmail.com</a>
                 </div>
                 <div className="flex">
                   <SiLinkedin style={{marginTop: '18px'}}/>
-                  <a href="https://linkedin.com/in/leonardoperachi" className="p-3 text-md lg:text-lg">www.linkedin.com/in/leonardoperachi</a>
+                  <a href="https://linkedin.com/in/leonardoperachi" className="p-3 text-md lg:text-md">www.linkedin.com/in/leonardoperachi</a>
                 </div>
                 <div className="flex">
                   <FaGithub style={{marginTop: '18px'}}/>
-                  <a href="https://github.com/leoperachi" className="p-3 text-md lg:text-lg">https://github.com/leoperachi</a>
+                  <a href="https://github.com/leoperachi" className="p-3 text-md lg:text-md">https://github.com/leoperachi</a>
                 </div>
               </div>
             </div>
@@ -232,27 +232,27 @@ export default function Home() {
                 <h2 className="text-xl flex"><FaComputer style={{marginTop:'5px', marginRight: '5px'}} />NT Consult</h2>
                 <p>08/2014 - 05/2015</p>
                 <p>Developer & Analist</p>
-                <p>Government system designed to manage purchases made by the state</p>
-                <p>government of Rio Grande do Sul.</p>
-                <p>Asp.net MVC / JQuery / rest api / entity framework / SQL Server</p>
+                <p className="text-sm md:text-lg">Government system designed to manage purchases made by the state</p>
+                <p className="text-sm md:text-lg">government of Rio Grande do Sul.</p>
+                <p className="text-sm md:text-lg">Asp.net MVC / JQuery / rest api / entity framework / SQL Server</p>
                 <br></br>
                 <h2 className="text-xl flex"><FaComputer style={{marginTop:'5px', marginRight: '5px'}} />Compuletra</h2>
-                <p>10/2013 - 04/2014</p>
+                <p className="text-sm md:text-md">10/2013 - 04/2014</p>
                 <p>Developer</p>
-                <p>Developing both backend and frontend vehicle inspection system. Government</p>
-                <p>system with Asp.net (classic), windows forms, rest apis, Entity Framework and SQL Server.</p>
+                <p className="text-sm md:text-lg">Developing both backend and frontend vehicle inspection system. Government</p>
+                <p className="text-sm md:text-lg">system with Asp.net (classic), windows forms, rest apis, Entity Framework and SQL Server.</p>
                 <br></br>
                 <h2 className="text-xl flex"><FaComputer style={{marginTop:'5px', marginRight: '5px'}} />Invest Insurance</h2>
                 <p>11/2012 - 10/2013</p>
                 <p>Developer & Analist</p>
-                <p>Development and analysis focused for the insurance area. Using</p>
-                <p>.net framework 4.5: Asp.net MVC, Entity Framework, Knockout, crystal reports. SQL Server for database.</p>
+                <p className="text-sm md:text-lg">Development and analysis focused for the insurance area. Using</p>
+                <p className="text-sm md:text-lg">.net framework 4.5: Asp.net MVC, Entity Framework, Knockout, crystal reports. SQL Server for database.</p>
                 <br></br>
                 <h2 className="text-xl flex"><FaComputer style={{marginTop:'5px', marginRight: '5px'}} />Célebre Informática</h2>
                 <p>08/2010 - 08/2012</p>
                 <p>Developer</p>
-                <p>Development of platform-based systems with .net 4. Using asp.net (classic),</p>
-                <p>crystal reports, javascript, api rest. Database: oracle, sql server. Truck fleet management system</p>
+                <p className="text-sm md:text-lg">Development of platform-based systems with .net 4. Using asp.net (classic),</p>
+                <p className="text-sm md:text-lg">crystal reports, javascript, api rest. Database: oracle, sql server. Truck fleet management system</p>
               </div>
             </div>
           </div>
